@@ -1,0 +1,171 @@
+#how-we-work {
+  min-height: 100vh;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* heading and images */
+#how-we-work > h1 {
+  width: 60%;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+#how-we-work > img {
+  width: 60%;
+}
+ 
+/* section 2 */
+
+.how-we-work-section-2 {
+  width: 100%;
+  padding-top: 54px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Center Content */
+.how-we-work-center {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-we-work-center h1 {
+  width: 80%;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 54px;
+}
+
+.how-we-work-center h4 {
+  width: 70%;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 54px;
+}
+
+.how-we-work-center p {
+  width: 70%;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+/* hands */
+.how-we-work-section-2 .img1,
+.how-we-work-section-2 .img2 {
+  width: 20%;
+}
+
+.how-we-work-section-2 .img1 {
+  transform: rotate(-27deg) translate(50px, -160px);
+}
+
+.how-we-work-section-2 .img2 {
+  transform: rotate(-20deg) translate(-50px, 250px);
+}
+
+/* decorative vectors */
+.vector1 {
+  height: 650px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+}
+
+.vector2 {
+  height: 450px;
+  position: absolute;
+  top: 150px;
+  right: -0px;
+  z-index: 1;
+}
+
+.vector3,
+.vector4 {
+  width: 160px;
+  height: 130px;
+  position: absolute;
+}
+
+.vector3 {
+  top: 320px;
+  left: 170px;
+  transform: rotate(-14deg);
+}
+
+.vector4 {
+  top: 200px;
+  right: 180px;
+  transform: rotate(14deg);
+}
+
+/* section 3 */
+
+.how-we-work-section-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.how-we-work-section-3 .row {
+  width: 70%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.how-we-work-section-3 .row2 {
+  flex-direction: row-reverse;
+}
+
+/* Left Column */
+.left-col {
+  width: 50%;
+}
+
+.left-col h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.left-col p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* Right Column */
+.right-col {
+  width: 50%;
+}
+
+.right-col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.last-text {
+  margin-top: 48px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  width: 70%;
+  text-align: center;
+  color: var(--text-color);
+}

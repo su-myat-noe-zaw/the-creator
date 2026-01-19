@@ -1,0 +1,98 @@
+#charity {
+  min-height: 100vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#charity .row {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+#charity .left-col {
+  background: var(--primary-color);
+  padding: 24px 0px;
+  padding-top: 56px;
+  height: 480px;
+  width: 580px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#charity .left-col p {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  padding: 12px 32px;
+}
+
+#charity .right-col {
+  background: var(--light-background);
+  padding: 72px;
+  height: 480px;
+  width: 580px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+#charity .right-col h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+#charity .right-col p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#charity .footer {
+  margin-top: 52px;
+  width: 100%;
+  text-align: center;
+}
+
+#charity .footer .title {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+#charity .footer .sub-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#charity .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 52px 0px;
+}
+
+.social-icons-container {
+  margin-top: auto;
+  display: flex;
+  gap: 16px;
+  padding-left: 4px;
+  align-items: center;
+}
+
+.social-icons-container img {
+  height: 32px;
+  width: 32px;
+}
+
+.copyright {
+  font-size: 20px;
+  line-height: 32px;
+}

@@ -1,21 +1,51 @@
+/* defining custom fonts */
+@font-face {
+  font-family: 'sfProDisplay';
+  src: url('../fonts/sfpro_regular.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sfProDisplay';
+  src: url('../fonts/sfpro_medium.OTF') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sfProDisplay';
+  src: url('../fonts/sfpro_bold.OTF') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-color: rgba(255, 96, 230, 1);
+  --light-primary-color: rgba(255, 173, 242, 1);
+  --text-color: rgba(31, 57, 44, 1);
+  --text-secondary-color: rgba(212, 212, 212, 1);
+  --light-background: rgba(255, 255, 255, 1);
+  --background-color: rgba(248, 245, 240, 1);
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition-duration: .3s;
+  color: var(--text-color);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
-.navbar {
-  background: #222;
-  color: white;
-  padding: 1rem;
-}
-
-.hero {
-  padding: 3rem;
-  text-align: center;
+  font-family: 'sfProDisplay', Arial, sans-serif;
+  background-color: var(--background-color);
 }

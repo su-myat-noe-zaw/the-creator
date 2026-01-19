@@ -1,0 +1,136 @@
+#partners {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+#partners .title-container {
+  position: relative;
+  width: 50%;
+}
+
+#partners .title-container img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50%;
+  height: auto;
+  z-index: -1;
+}
+
+#partners .title-text {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+#partners .partners-vector-container {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+.partner-cards-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.partners-card-container {
+  background-color: var(--light-background);
+  height: 340px;
+  border-radius: 24px;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 2;
+  overflow-x: scroll;
+}
+
+#partners .left-container {
+  position: absolute;
+  z-index: 10;
+  width: 30%;
+  left: 250px;
+}
+
+#partners .left-container h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#partners .left-container p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#partners .right-container {
+  position: absolute;
+  z-index: 10;
+  width: 50%;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 32px;
+}
+
+#partners .card {
+  position: relative;
+  height: 200px;
+  width: 400px;
+  background-color: aquamarine;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+#partners .card1 {
+  background-color: var(--primary-color);
+}
+
+#partners .card2 {
+  background-color: var(--light-primary-color);
+}
+
+#partners .card-icon-container {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-background);
+}
+
+#partners .card-tite img {
+  width: 20px;
+  height: 25px;
+}
+
+#partners .card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#partners .card-title h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+#partners .card-description {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}

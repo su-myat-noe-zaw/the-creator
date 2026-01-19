@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Creater</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Creator</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <!-- mobile menu icon -->
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
-  <link rel="shortcut icon" href="assets/images/Logo.png" type="image/x-icon">
-</head>
-<body>
+        <!-- logo conatiner -->
+        <a href="#home" class="logo-container">
+          <img
+            src="/assets/images/logo.png"
+            alt="the creator logo"
+            class="logo"
+          />
+          <h1>The Creator</h1>
+        </a>
+        <!-- menu items -->
+        <ul class="menu-items-container">
+          <li>
+            <a href="#partners">Partners</a>
+          </li>
+          <li>
+            <a href="#how-we-work">How we Work</a>
+          </li>
+          <li>
+            <a href="#review">Review</a>
+          </li>
+          <li>
+            <a href="#charity">Charity</a>
+          </li>
+        </ul>
+        <!-- action button -->
+        <button class="button">Join The Creator</button>
+      </nav>
+    </header>
 
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">The Creater</h1>
-    </nav>
-  </header>
+    <main id="content"></main>
 
-  <main>
-    <section class="hero">
-      <h2>Welcome to The Creater</h2>
-      <button id="ctaBtn">Click Me</button>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2026 The Creater</p>
-  </footer>
-
-  <script src="assets/js/main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
